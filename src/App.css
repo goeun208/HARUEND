@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'EFDiary';
+  src: url('./assets/fonts/EF_Diary.ttf') format('truetype')
+  ,url('./assets/fonts/EF_Diary.ttf') format('woff');
+
+}
+
+@font-face {
+  font-family: 'MapoFlower';
+  src: url('./assets/fonts/MapoFlowerIsland.otf') format('truetype')
+  ,url('./assets/fonts/MapoFlowerIsland.otf') format('woff');
+
+}
