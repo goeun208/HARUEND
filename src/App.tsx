@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './App.css';
+import './reset.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import List from "./routes/List";

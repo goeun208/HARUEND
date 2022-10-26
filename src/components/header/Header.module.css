@@ -1,5 +1,58 @@
 .wrap {
   width: 100%;
   height: 100px;
-  background-color: #F1F4F0;
+  background-color: #FFF;
+  border-bottom: 1px solid #A8A8A8;
+  font-family: 'MapoFlower';
+}
+
+.box {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  line-height: 70px;
+}
+
+
+.top {
+  width: 100%;
+  height: 20px;
+  background-color: #87AC69;
+}
+
+.logo {
+  margin-top: 2px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #4A9348;  
+  font-weight: 600;
+
+}
+
+.catebox {
+  margin-top: 3px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logbox {
+  margin-top: 3px;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  font-size: 18px;
+  margin: 0 2%;
+  text-decoration: none;
+  color: #677561;
+}
+
+.category2 {
+  font-size: 18px;
+  text-decoration: none;  
+  color: #75965D;  
 }
