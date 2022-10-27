@@ -1,4 +1,4 @@
 export const weather = () => {
-  let weather:string = "맑음";
+  let weather:string = "🌞";
   return weather;
 }

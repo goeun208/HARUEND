@@ -1,0 +1,113 @@
+.wrap {
+  width: 1000px;
+  height: 830px;
+  margin: 0 auto;
+  font-family: 'EFDiary';
+  padding: 20px 0;
+  position: relative;
+  
+}
+
+.top {
+  line-height: 50px;
+  font-family: 'MapoFlower';
+  color: #668355;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.tmbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+
+}
+
+.title {
+  width: 90%;
+  height: 50px;
+  background-color: #D3E4C5;
+  border: 1px solid #668355;
+  border-radius: 10px;
+}
+.title::placeholder {
+  font-family: 'EFDiary';
+  padding-left: 10px;
+}
+
+.mood {
+  width: 8%;
+  height: 56px;
+  font-size: 20px;
+  padding: .7em;
+  border-radius: 10px;
+  border: 1px solid #668355;
+
+}
+
+.mobox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.music {
+  width: 30%;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #668355;
+}
+
+.ootd {
+  width: 68%;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #668355;
+}
+
+.textbox {
+  width: 994px;
+  height: 500px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px dashed #668355;
+  resize: none;
+}
+
+.textbox::placeholder {
+  font-family: 'EFDiary';
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.ment {
+  width: 994px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #668355;
+}
+
+.ment::placeholder {
+  font-family: 'EFDiary';
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 10%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #87AC69;
+  border: 1px solid #87AC69;
+  color: white;
+  font-size: 16px;
+  font-family: 'EFDiary';
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  cursor: pointer;
+}
