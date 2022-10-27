@@ -10,7 +10,7 @@ const Banner = () => {
         <div>오늘 하루는 어땠나요?</div>
         <div>솔직한 나의 감정을 HARUEND에 간편하게 기록해보세요.</div>
       </div>
-      <img className={styles.image} src={require("../../assets/images/group-diary 2.png")} alt="note"/>
+      <img className={styles.image} src={require("../../assets/images/computer.jpg")} alt="note"/>
     </div>
   );
 }
